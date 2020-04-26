@@ -5,9 +5,11 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
+
 import com.bravo.pages.FlightPage;
 import com.bravo.utilities.BrowserUtilities;
 import com.bravo.utilities.Driver;
+
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -15,6 +17,80 @@ import io.cucumber.java.en.When;
 public class FlightsTest {
 
 	FlightPage flightPage = new FlightPage();
+	
+	
+//	@Given("Verify that user launch on login page by Orbitz title")
+//	public void verify_that_user_launch_on_login_page_by_Orbitz_title() {
+//	    // Write code here that turns the phrase above into concrete actions
+//	    throw new io.cucumber.java.PendingException();
+//	}
+//
+//	@When("The user clicks on Flight link")
+//	public void the_user_clicks_on_Flight_link() {
+//	    // Write code here that turns the phrase above into concrete actions
+//	    throw new io.cucumber.java.PendingException();
+//	}
+//
+//	@When("Verify that user on Search Flights page")
+//	public void verify_that_user_on_Search_Flights_page() {
+//	    // Write code here that turns the phrase above into concrete actions
+//	    throw new io.cucumber.java.PendingException();
+//	}
+//
+//	@When("The user provides information to Flying from input field on Search Flights page")
+//	public void the_user_provides_information_to_Flying_from_input_field_on_Search_Flights_page() {
+//	    // Write code here that turns the phrase above into concrete actions
+//	    throw new io.cucumber.java.PendingException();
+//	}
+//
+//	@When("The user provides information to Flying to input field on Search Flights page")
+//	public void the_user_provides_information_to_Flying_to_input_field_on_Search_Flights_page() {
+//	    // Write code here that turns the phrase above into concrete actions
+//	    throw new io.cucumber.java.PendingException();
+//	}
+//
+//	@When("The user selects Departing date")
+//	public void the_user_selects_Departing_date() {
+//	    // Write code here that turns the phrase above into concrete actions
+//	    throw new io.cucumber.java.PendingException();
+//	}
+//
+//	@When("The user selects Returning date")
+//	public void the_user_selects_Returning_date() {
+//	    // Write code here that turns the phrase above into concrete actions
+//	    throw new io.cucumber.java.PendingException();
+//	}
+//
+//	@When("The user selects value to Adults field on Search Flights page")
+//	public void the_user_selects_value_to_Adults_field_on_Search_Flights_page() {
+//	    // Write code here that turns the phrase above into concrete actions
+//	    throw new io.cucumber.java.PendingException();
+//	}
+//
+//	@When("The user selects value to Children field on Search Flights page")
+//	public void the_user_selects_value_to_Children_field_on_Search_Flights_page() {
+//	    // Write code here that turns the phrase above into concrete actions
+//	    throw new io.cucumber.java.PendingException();
+//	}
+//
+//	@When("Verify that Add a car check box is selected")
+//	public void verify_that_Add_a_car_check_box_is_selected() {
+//	    // Write code here that turns the phrase above into concrete actions
+//	    throw new io.cucumber.java.PendingException();
+//	}
+//
+//	@When("Verify Direct flights only message displayed on Search Flights page")
+//	public void verify_Direct_flights_only_message_displayed_on_Search_Flights_page() {
+//	    // Write code here that turns the phrase above into concrete actions
+//	    throw new io.cucumber.java.PendingException();
+//	}
+//
+//	@Then("The user clicks on Search Hotel and Car button")
+//	public void the_user_clicks_on_Search_Hotel_and_Car_button() {
+//	    // Write code here that turns the phrase above into concrete actions
+//	    throw new io.cucumber.java.PendingException();
+//	}
+
 
 	@Given("Verify that user launch on login page by Orbitz title")
 	public void verify_that_user_launch_on_login_page_by_Orbitz_title() {

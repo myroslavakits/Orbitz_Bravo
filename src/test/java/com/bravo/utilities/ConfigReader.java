@@ -12,7 +12,8 @@ public class ConfigReader {
 			
 			prop = new Properties();
 			
-			String fileName = "config.properties";
+			String fileName = "configuration.properties";
+		
 			
 			try {
 				FileInputStream fis = new FileInputStream(fileName);

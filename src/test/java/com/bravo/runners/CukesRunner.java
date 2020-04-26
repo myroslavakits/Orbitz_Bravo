@@ -14,11 +14,12 @@ import io.cucumber.junit.CucumberOptions;
 		
 		},
 					
-		features = "src/test/resources/com/bravo/features",
-		glue = "com/bravo/step_definitions",
+		features = "src/test/resources",
+		glue = "com.bravo.step_defenitions",
+				
 				
 		tags = "@bravo", 
-     	dryRun = true
+     	dryRun = false
 //		,monochrome =true
 //		,stepNotifications = true
 //		,snippets = SnippetType.CAMELCASE
