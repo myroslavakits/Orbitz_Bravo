@@ -1,6 +1,7 @@
 Feature: Verification of Flights functionality
   
 @bravo
+
 Scenario: test
 
 		Given Verify that user launch on login page by Orbitz title
