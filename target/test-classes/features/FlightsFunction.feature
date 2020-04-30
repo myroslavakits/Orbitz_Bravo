@@ -1,6 +1,6 @@
 Feature: Verification of Flights functionality
   
-@bravo
+@bravo1
 
 Scenario: test
 
